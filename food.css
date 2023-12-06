@@ -1,0 +1,134 @@
+body{
+font-family: 'Roboto', sans-serif;
+box-sizing: border-box;
+margin: 0;
+
+}
+.sec1{
+display: flex;
+margin-bottom: 150px;
+}
+.half-width1{
+    width: 50%;
+    padding: 5%;
+}
+.half-width1 img{
+    width: 95%;
+}
+h1{
+    font-size: 50px;
+    color: rgb(70, 67, 67);
+}
+samp{
+    color: rgb(245, 134, 43);
+}
+.half-width1 p {
+    color: rgb(102, 98, 98);
+    line-height: 30px;
+}
+.half-width1 a{
+    text-decoration: none;
+    background-image: linear-gradient(to bottom right,orange,tomato);
+    padding: 10px 20px;
+    color:rgb(255, 255, 255);
+    border-radius:40px;
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+}
+#img1{
+    height: 80%;
+    width:74%
+}
+.sec2{
+    height: 600px;
+    margin-bottom: 100px;
+}
+.sec2{
+  
+background-image: url(shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.sec-div2{
+    display: flex;  
+
+}
+.sec-div2 img{
+height: 90%;
+width: 80%;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 90%;
+;
+}
+.item-c{
+margin-left: 30px;
+}
+.item-card img{
+  width: 85%;
+  padding-left: 30px;
+  padding-top: 30px;
+    
+}
+.item-card p{
+    width: 70%;
+    color: #777575;
+    line-height: 30px;
+}
+.item-card h2{
+    color: #333131;
+    font-size:30px;
+}
+.item-card{
+height: auto;
+width:30%;
+background-color:#fff;
+border-radius: 30px;
+box-shadow: 1px 2px 20px  rgb(102, 98, 98,0.4);
+
+}
+.item4{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    width: 87%;
+    box-shadow: 1px 2px 20px rgb(102, 98, 98, 0.4);
+    border-radius: 30px;
+}
+.item4 {
+    color: #777575;
+}
+.item-text{
+    text-align: center;
+    align-items: center; 
+    height: 200px;
+
+}
+.item-text p{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    color: #3f3d3d;
+}
+footer{
+height: auto;
+}
+footer div{
+            text-align: center;
+                justify-content: center;
+                        background-color: black;
+                        margin-top: 100px;
+                        padding: 40px;
+}
+span{
+    color: orange;
+}
+footer p{
+    color: #9e9c9c;
+}
